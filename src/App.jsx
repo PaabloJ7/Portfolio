@@ -10,6 +10,9 @@ import RightLane from './Components/RightLane'
 function App() {
   return (
     <div>
+            <div className="construction-banner">
+        🚧 Sitio en construcción 🚧
+      </div>
       <LeftLane />
       <RightLane />
       <Navbar />

@@ -13,9 +13,9 @@
 }
 
 :root {
-    --bg-dark: #0a0a0a;  /* Negro muy oscuro para el fondo */
-    --neon-green: #00ff9f;  /* Verde neón brillante */
-    --dark-green: #064e3b;  /* Verde oscuro para gradientes */
+    --bg-dark: #0a0a0a; 
+    --neon-green: #00ff9f; 
+    --dark-green: #064e3b;
     --text-primary: #e2e8f0;
     --text-secondary: #94a3b8;
     --accent: #00ff9f;
@@ -64,7 +64,7 @@ body {
     transform: rotate(180deg);
   }
 
-/* Ajustamos los colores del texto para que combinen */
+
 h1, h2, h3 {
     color: var(--neon-green);
     text-shadow: 0 0 10px rgba(0, 255, 159, 0.3);
@@ -76,15 +76,30 @@ h1, h2, h3 {
 }
 
 .card {
-/* Ajuste para cards o secciones */
+
     background: rgba(6, 78, 59, 0.1);
     border: 1px solid rgba(0, 255, 159, 0.1);
     box-shadow: 0 0 20px rgba(0, 255, 159, 0.05);
 }
 
-/* Efecto hover para elementos interactivos */
+
 a:hover, .button-primary:hover {
     color: var(--neon-green);
-    text-shadow: 0 0 8px rgba(0, 255, 159, 0.5);
+    text-shadow: 0 0 8px rgba(0, 255, 159, 0.5)
 }
   
+
+
+.construction-banner {
+    background-color: #ffd700;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }

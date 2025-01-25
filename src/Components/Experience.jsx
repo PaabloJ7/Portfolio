@@ -20,7 +20,7 @@ const Experience = () => {
             los estandares corporativos.
             </p>
           </div>
-          {/* Puedes duplicar este div para más experiencias */}
+      
         </div>
       </div>
     </section>
