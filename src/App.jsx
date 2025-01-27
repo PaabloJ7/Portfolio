@@ -8,6 +8,8 @@ import LeftLane from './Components/LeftLane'
 import RightLane from './Components/Rightlane'
 <script src="https://kit.fontawesome.com/8c84d65625.js" crossorigin="anonymous"></script>
 
+
+
 function App() {
   return (
     <div>
@@ -16,6 +18,7 @@ function App() {
       <Navbar />
       <br />
       <Hero />
+      <Projects />
       <Projects />
       <Experience />
     </div>

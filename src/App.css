@@ -1,12 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-    --color-midnight: #121063;
-    --color-tahiti: #3ab7bf;
-    --color-bermuda: #78dcca;
-    --background-color: #000000;
-    --gradient-start: #1a1a1a;
-    --gradient-end: #000000;
     --color-mi-verde: #41cc9a;
     --color-mi-verde-hover: #38b288;
     --color-mi-azul: #56d3b2;
@@ -20,6 +14,9 @@
     --text-secondary: #94a3b8;
     --neon-white: #ffffff;
     --accent: #00ff9f;
+    --color-mi-verde: #41cc9a;
+    --color-mi-verde-hover: #38b288;
+    --color-mi-azul: #56d3b2;
 }
 
 
