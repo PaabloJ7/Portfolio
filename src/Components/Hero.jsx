@@ -149,10 +149,10 @@ const Hero  = () => {
                             whileTap={{ scale: 0.95 }}
                             className="relative group"
                         >
-                            <img src="assets/Tailwind_CSS_Logo.svg" alt="Tailwind CSS"
-                                className="w-12 h-12 transition-transform duration-300 group-hover:scale-145 dark:invert" />
+                            <img src="../src/assets/Tailwind_CSS_Logo.svg.png" alt="Tailwind CSS"
+                                className=" transition-transform duration-300 group-hover:scale-145 w-18 h-11" />
                             <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap">Tailwind</span>
-                        </motion.div>s
+                        </motion.div>
                         <motion.div
                             whileHover={{ scale: 1.1, rotate: 5 }}
                             whileTap={{ scale: 0.95 }}
@@ -162,20 +162,80 @@ const Hero  = () => {
                                 className="w-12 h-12 transition-transform duration-300 group-hover:scale-145" />
                             <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap">Node.js</span>
                         </motion.div>
-                        <motion.div
-                            whileHover={{ scale: 1.1, rotate: 5 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="relative group"
-                        >
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"
-                                className="w-12 h-12 transition-transform duration-300 group-hover:scale-145" />
-                            <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap">Docker</span>
-                        </motion.div>
                     </div>
                 </motion.div>
             </motion.div>
-            <div className="py-8 md:col-span-1">
-            </div>
+            <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 1.2 }}
+                className="relative h-[500px] w-full md:col-span-1"
+            >
+                {/* Ventana flotante 1 */}
+                <motion.div
+                    animate={{
+                        y: [0, -10, 0],
+                        rotate: [0, 2, 0]
+                    }}
+                    transition={{
+                        duration: 4,
+                        repeat: Infinity,
+                        ease: "easeInOut"
+                    }}
+                    className="absolute top-10 right-0 w-64 bg-white dark:bg-gray-800 rounded-lg shadow-xl p-3 transform -rotate-3"
+                >
+                    <div className="flex gap-1.5 mb-2">
+                        <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div className="w-full h-32 bg-gray-200 dark:bg-gray-700 rounded"></div>
+                </motion.div>
+
+                {/* Ventana flotante 2 */}
+                <motion.div
+                    animate={{
+                        y: [0, 20, 0],
+                        rotate: [0, -2, 0]
+                    }}
+                    transition={{
+                        duration: 5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 0.5
+                    }}
+                    className="absolute top-40 right-10 w-56 bg-white dark:bg-gray-800 rounded-lg shadow-xl p-3 transform rotate-3"
+                >
+                    <div className="flex gap-1.5 mb-2">
+                        <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div className="w-full h-28 bg-gray-200 dark:bg-gray-700 rounded"></div>
+                </motion.div>
+
+                {/* Ventana flotante 3 */}
+                <motion.div
+                    animate={{
+                        y: [-10, 10, -10],
+                        rotate: [2, -2, 2]
+                    }}
+                    transition={{
+                        duration: 6,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 1
+                    }}
+                    className="absolute top-80 right-5 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-xl p-3"
+                >
+                    <div className="flex gap-1.5 mb-2">
+                        <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div className="w-full h-24 bg-gray-200 dark:bg-gray-700 rounded"></div>
+                </motion.div>
+            </motion.div>
         </div>
     )
 }

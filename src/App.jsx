@@ -1,7 +1,7 @@
 import './App.css'
 import Navbar from './Components/Navbar'
-import Projects from './Components/Projects'
 import Hero from './Components/Hero'
+import ProjectCard from './Components/ProjectCard'
 import MouseLight from './Components/MouseLight'
 import Experience from './Components/Experience'
 import LeftLane from './Components/LeftLane'
@@ -18,8 +18,10 @@ function App() {
       <Navbar />
       <br />
       <Hero />
-      <Projects />
-      <Projects />
+      <ProjectCard />
+      <br />
+      <ProjectCard />
+      
       <Experience />
     </div>
     
