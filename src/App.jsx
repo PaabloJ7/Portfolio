@@ -6,7 +6,7 @@ import MouseLight from './Components/MouseLight'
 import Experience from './Components/Experience'
 import LeftLane from './Components/LeftLane'
 import ProjectCard2 from './Components/ProjectCard2'
-import RightLane from './Components/Rightlane'
+import Rightlane from './Components/RightLane.jsx'
 <script src="https://kit.fontawesome.com/8c84d65625.js" crossorigin="anonymous"></script>
 
 
@@ -14,14 +14,18 @@ import RightLane from './Components/Rightlane'
 function App() {
   return (
     <div>
+      
+      <MouseLight />
       <LeftLane />
-      <RightLane />
+      <Rightlane />
       <Navbar />
       <br />
       <Hero />
+      <div className="text-center text-yellow-400 text-5xl font-bold">(Sitio web en construcción)</div>
       <ProjectCard />
       <br />
       <ProjectCard2 />
+      <Experience />
       
       
     </div>
