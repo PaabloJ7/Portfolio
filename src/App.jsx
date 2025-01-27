@@ -21,13 +21,14 @@ function App() {
       <Navbar />
       <br />
       <Hero />
-      <div className="text-center text-yellow-400 text-5xl font-bold">(Sitio web en construcción)</div>
+
       <ProjectCard />
       <br />
       <ProjectCard2 />
       <Experience />
+      <div className="text-center text-yellow-400 text-3xl font-bold">(Sitio web en DESARROLLO)</div>
       
-      
+
     </div>
     
   )

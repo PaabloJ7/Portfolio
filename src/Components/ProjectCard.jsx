@@ -6,7 +6,7 @@ const ProjectCard = ({ title, content }) => {
       <div className="w-1/2 relative">
         <img 
           className="object-cover w-full h-full p-5" 
-          src="/src/assets/Macbook Pro & Air Device Mockups (Community).svg" 
+          src="/public/images/Macbook Pro & Air Device Mockups (Community).svg" 
           alt="Foto del proyecto VitalMe" 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1C1C1C] via-transparent to-transparent opacity-50"></div>
@@ -25,12 +25,13 @@ const ProjectCard = ({ title, content }) => {
         <h1 className="mb-4 text-4xl font-bold text-white tracking-tight">App Fit</h1>
         
         <p className="mb-8 text-lg text-gray-400 leading-relaxed">
-          At Facebook I designed and documented components for In-Product Communication. 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Una aplicación completa para el seguimiento de tu estilo de vida saludable. 
+          Registra tus comidas diarias, cuenta calorías, establece objetivos nutricionales 
+          y mantén un control detallado de tu progreso hacia una vida más saludable.
         </p>
 
         <div className="flex gap-4">
-          {/* Botón de GitHub */}
+
           <a 
             href="https://github.com/PaabloJ7/Proyecto-VitalMe" 
             className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#2A2A2A] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
@@ -39,7 +40,7 @@ const ProjectCard = ({ title, content }) => {
             Código
           </a>
 
-          {/* Botón de Saber Más */}
+
           <a 
             href="#" 
             className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#2A2A2A] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"

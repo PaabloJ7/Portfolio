@@ -149,7 +149,7 @@ const Hero  = () => {
                             whileTap={{ scale: 0.95 }}
                             className="relative group"
                         >
-                            <img src="../src/assets/Tailwind_CSS_Logo.svg.png" alt="Tailwind CSS"
+                            <img src="../public/src/assets/Tailwind_CSS_Logo.svg.png" alt="Tailwind CSS"
                                 className=" transition-transform duration-300 group-hover:scale-145 w-18 h-11" />
                             <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap">Tailwind</span>
                         </motion.div>

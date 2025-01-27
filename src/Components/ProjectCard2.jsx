@@ -25,10 +25,9 @@ const ProjectCard2 = ({ title, content }) => {
         <h1 className="mb-4 text-4xl font-bold text-white tracking-tight">Soundwave</h1>
         
         <p className="mb-8 text-lg text-gray-400 leading-relaxed">
-        Soundwave es tu nueva plataforma musical favorita. Una experiencia única 
-          que revoluciona la forma de descubrir y disfrutar la música. Con una 
-          biblioteca de millones de canciones, playlists personalizadas impulsadas 
-          por IA y una interfaz intuitiva que se adapta a tus gustos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, reiciendis fugiat fuga tenetur, minus ex et cumque, praesentium beatae quos aspernatur nemo incidunt quisquam nostrum nesciunt repudiandae neque vitae est!
+        Deleniti aut quaerat, nostrum optio repudiandae repellendus adipisci quas corporis commodi esse dolor. 
+       
         </p>
 
         <div className="flex gap-4">
