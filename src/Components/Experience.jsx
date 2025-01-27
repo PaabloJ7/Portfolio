@@ -2,8 +2,8 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <section className="py-32 bg-neutral-900">
-      <div className="max-w-screen-xl mx-auto px-4">
+
+      <div id= "Experiencia" className="max-w-screen-xl mx-auto px-4">
         <h2 className="text-4xl font-bold mb-16 text-center">Experiencia</h2>
         <div className="space-y-12">
           <div className="border border-neutral-800 rounded-lg p-6">
@@ -23,7 +23,7 @@ const Experience = () => {
       
         </div>
       </div>
-    </section>
+
   )
 }
 

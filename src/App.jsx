@@ -5,14 +5,12 @@ import Hero from './Components/Hero'
 import MouseLight from './Components/MouseLight'
 import Experience from './Components/Experience'
 import LeftLane from './Components/LeftLane'
-import RightLane from './Components/RightLane'
+import RightLane from './Components/Rightlane'
+<script src="https://kit.fontawesome.com/8c84d65625.js" crossorigin="anonymous"></script>
 
 function App() {
   return (
     <div>
-            <div className="construction-banner">
-        🚧 Sitio en construcción 🚧
-      </div>
       <LeftLane />
       <RightLane />
       <Navbar />

@@ -8,6 +8,7 @@ const RightLane = () => {
          className="vertical-text mb-4 text-mi-verde hover:text-gray-100 transition-transform rotate-180">
         pablodelasierra7@gmail.com
       </a>
+      
       <div className="w-[1px] h-32 bg-gray-300 dark:bg-gray-700"></div>
     </div>
   </div>

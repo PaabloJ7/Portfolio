@@ -7,19 +7,19 @@ const Navbar = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
           <ul className="flex flex-col font-medium mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent dark:border-gray-700">
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm md:bg-transparent" aria-current="page">Sobre mi</a>
+              <a href="#Sobremi" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm md:bg-transparent" aria-current="page">Sobre mi</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Proyectos</a>
+              <a href="#Proyectos" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Proyectos</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Experiencia</a>
+              <a href="#Experiencia" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Experiencia</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Estudios</a>
+              <a href="#Estudios" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Estudios</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Contact</a>
+              <a href="#Contacto" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Contacto</a>
             </li>
           </ul>
         </div>

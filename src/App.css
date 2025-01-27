@@ -18,6 +18,7 @@
     --dark-green: #064e3b;
     --text-primary: #e2e8f0;
     --text-secondary: #94a3b8;
+    --neon-white: #ffffff;
     --accent: #00ff9f;
 }
 
@@ -65,15 +66,16 @@ body {
   }
 
 
-h1, h2, h3 {
+h1 {
     color: var(--neon-green);
     text-shadow: 0 0 10px rgba(0, 255, 159, 0.3);
 }
 
-.highlight-text {
-    color: var(--neon-green);
-    text-shadow: 0 0 5px rgba(0, 255, 159, 0.5);
+h2, h3 {
+    color: var(--neon-white);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.305);
 }
+
 
 .card {
 
@@ -85,7 +87,7 @@ h1, h2, h3 {
 
 a:hover, .button-primary:hover {
     color: var(--neon-green);
-    text-shadow: 0 0 8px rgba(0, 255, 159, 0.5)
+    text-shadow: 0 0 8px rgba(245, 246, 246, 0.5)
 }
   
 

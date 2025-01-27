@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+    <div id="Proyectos" className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white/25 backdrop-blur-lg border border-white/18 rounded-lg p-8 shadow-lg">
           <a
@@ -35,7 +35,7 @@ const Projects = () => {
             </svg>
             PHP
           </a>
-          
+
           <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Proyecto VitalMe</h2>
           <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
             WebApp Fitness para controlar la salud de los usuarios, funcionalidades de registro de datos, seguimiento de la
