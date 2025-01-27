@@ -5,6 +5,7 @@ import ProjectCard from './Components/ProjectCard'
 import MouseLight from './Components/MouseLight'
 import Experience from './Components/Experience'
 import LeftLane from './Components/LeftLane'
+import ProjectCard2 from './Components/ProjectCard2'
 import RightLane from './Components/Rightlane'
 <script src="https://kit.fontawesome.com/8c84d65625.js" crossorigin="anonymous"></script>
 
@@ -20,9 +21,9 @@ function App() {
       <Hero />
       <ProjectCard />
       <br />
-      <ProjectCard />
+      <ProjectCard2 />
       
-      <Experience />
+      
     </div>
     
   )
