@@ -2,11 +2,11 @@ import React from 'react'
 
 const ProjectCard = ({ title, content }) => {
   return (
-    <div className="m-auto flex flex-row bg-[#1C1C1C] rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 max-w-6xl overflow-hidden">
+    <div id="Proyectos" className="m-auto flex flex-row bg-[#1C1C1C] rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 max-w-6xl overflow-hidden">
       <div className="w-1/2 relative">
         <img 
           className="object-cover w-full h-full p-5" 
-          src="/public/images/Macbook Pro & Air Device Mockups (Community).svg" 
+          src="/images/Macbook Pro & Air Device Mockups (Community).svg" 
           alt="Foto del proyecto VitalMe" 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1C1C1C] via-transparent to-transparent opacity-50"></div>

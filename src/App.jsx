@@ -21,12 +21,14 @@ function App() {
       <Navbar />
       <br />
       <Hero />
-
       <ProjectCard />
       <br />
       <ProjectCard2 />
       <Experience />
-      <div className="text-center text-yellow-400 text-3xl font-bold">(Sitio web en DESARROLLO)</div>
+      <div className="text-center text-yellow-400 text-4xl font-extrabold bg-black p-4 rounded-lg shadow-lg animate-pulse-slow">
+  🚧 Portfolio en desarrollo... 🚀
+</div>
+
       
 
     </div>

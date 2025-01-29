@@ -14,7 +14,7 @@ const Hero  = () => {
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="mb-2 text-4xl font-extrabold tracking-tight text-transparent  lg:text-7xl">
+                    className=" mb-2 text-4xl font-extrabold tracking-tight text-transparent  lg:text-7xl">
                     Hola! 👋 Soy Pablo.
                 </motion.h1>
 
@@ -49,16 +49,15 @@ const Hero  = () => {
                 >
                     <a
                         href="mailto:pablodelasierra7@gmail.com"
-                        className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-mi-verde rounded-lg border-2 border-mi-verde hover:bg-mi-verde hover:text-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-mi-verde rounded-lg border-2 border-mi-verde hover:scale-105 hover:text-white ">
                         Contáctame
                         <i class="ml-2 fa-regular fa-envelope"></i>
                     </a>
                     
-                    <a
-                        href="../assets/CV_Pablo_Sierra.pdf"
-                        className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-mi-verde rounded-lg border-2 border-mi-verde hover:bg-mi-verde hover:text-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Ver Curriculum
-                        <i class="ml-2 fa-regular fa-file"></i>
+                    <a href="/images/CV_Pablo_de_la_Sierra.pdf" target="_blank" rel="noopener noreferrer"
+                    className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-mi-verde rounded-lg border-2 border-mi-verde hover:scale-105 hover:text-white">
+                    Ver Curriculum
+                    <i className="ml-2 fa-regular fa-file"></i>
                     </a>
                 </motion.div>
 
@@ -149,7 +148,7 @@ const Hero  = () => {
                             whileTap={{ scale: 0.95 }}
                             className="relative group"
                         >
-                            <img src="../public/src/assets/Tailwind_CSS_Logo.svg.png" alt="Tailwind CSS"
+                            <img src="/images/Tailwind_CSS_Logo.svg.png" alt="Tailwind CSS"
                                 className=" transition-transform duration-300 group-hover:scale-145 w-18 h-11" />
                             <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm text-gray-600 dark:text-gray-400 whitespace-nowrap">Tailwind</span>
                         </motion.div>

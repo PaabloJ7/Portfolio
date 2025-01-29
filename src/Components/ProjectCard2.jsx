@@ -6,7 +6,7 @@ const ProjectCard2 = ({ title, content }) => {
       <div className="w-1/2 relative">
         <img 
           className="object-cover w-full h-auto p-5" 
-          src="/src/assets/40shots_so.png" 
+          src="/images/40shots_so.png" 
           alt="Foto del proyecto Mi Music" 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1C1C1C] via-transparent to-transparent opacity-50"></div>
@@ -25,9 +25,7 @@ const ProjectCard2 = ({ title, content }) => {
         <h1 className="mb-4 text-4xl font-bold text-white tracking-tight">Soundwave</h1>
         
         <p className="mb-8 text-lg text-gray-400 leading-relaxed">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, reiciendis fugiat fuga tenetur, minus ex et cumque, praesentium beatae quos aspernatur nemo incidunt quisquam nostrum nesciunt repudiandae neque vitae est!
-        Deleniti aut quaerat, nostrum optio repudiandae repellendus adipisci quas corporis commodi esse dolor. 
-       
+          Plataforma de streaming musical desarrollada con PHP y Symfony, implementando una arquitectura MVC y gestión de bases de datos MySQL. Incluye sistema de autenticación, gestión de playlists, reproductor de audio integrado y panel de administración para gestionar contenidos y usuarios.
         </p>
 
         <div className="flex gap-4">
