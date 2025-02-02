@@ -17,6 +17,7 @@
     --color-mi-verde: #41cc9a;
     --color-mi-verde-hover: #38b288;
     --color-mi-azul: #56d3b2;
+
 }
 
 
@@ -24,6 +25,7 @@ body {
 
     position: relative;
     overflow-x: hidden;
+
 }
 
 

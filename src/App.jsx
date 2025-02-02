@@ -26,8 +26,7 @@ function App() {
       <ProjectCard2 />
       <Experience />
       <div className="text-center text-yellow-400 text-4xl font-extrabold bg-black p-4 rounded-lg shadow-lg animate-pulse-slow">
-  🚧 Portfolio en desarrollo... 🚀
-</div>
+        🚧 Portfolio en desarrollo... 🚀</div>
 
       
 
