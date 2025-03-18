@@ -20,12 +20,16 @@
 
 }
 
-
 body {
-
-    position: relative;
-    overflow-x: hidden;
-
+    zoom: 1.07; 
+    background: linear-gradient(
+        135deg,
+        var(--bg-dark) 0%,
+        #111111 50%,
+        var(--bg-dark) 100%
+    );
+    font-family: sans-serif;
+   
 }
 
 
@@ -44,17 +48,7 @@ body::before {
     z-index: 1;
 
 }
-body {
-    background: linear-gradient(
-        135deg,
-        var(--bg-dark) 0%,
-        #111111 50%,
-        var(--bg-dark) 100%
-    );
-    margin: 0;
-    font-family: sans-serif;
-   
-}
+
 
 .vertical-text {
     writing-mode: vertical-rl;
@@ -89,17 +83,3 @@ a:hover, .button-primary:hover {
   
 
 
-.construction-banner {
-    background-color: #ffd700;
-    color: #000;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  }
- 

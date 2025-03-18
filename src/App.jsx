@@ -24,6 +24,7 @@ function App() {
       <ProjectCard />
       <br />
       <ProjectCard2 />
+      <br />
       <ExperienceSection />
       <Contact />
 

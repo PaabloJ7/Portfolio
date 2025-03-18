@@ -1,32 +1,36 @@
-import React from 'react'
+import React from 'react';
 
 const Navbar = () => {
+  const links = [
+    { href: "#Sobremi", label: "Sobre mí" },
+    { href: "#Proyectos", label: "Proyectos" },
+    { href: "#Experiencia", label: "Experiencia" },
+    { href: "#Estudios", label: "Estudios" },
+    { href: "#Contacto", label: "Contacto" },
+  ];
+
   return (
-    <nav className="fixed w-full backdrop-blur-sm  dark:border-gray-700/30">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-end mx-auto p-4">
-      <i className="fas fa-code text-mi-verde text-2xl mr-9"></i>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-          <ul className="flex flex-col font-medium  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent dark:border-gray-700">
-            <li>
-              <a href="#Sobremi" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm md:bg-transparent" aria-current="page">Sobre mi</a>
-            </li>
-            <li>
-              <a href="#Proyectos" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Proyectos</a>
-            </li>
-            <li>
-              <a href="#Experiencia" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Experiencia</a>
-            </li>
-            <li>
-              <a href="#Estudios" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Estudios</a>
-            </li>
-            <li>
-              <a href="#Contacto" className="block py-2 px-3 md:p-0 text-white hover:text-mi-verde rounded-sm">Contacto</a>
-            </li>
+    <nav className="fixed w-full backdrop-blur-sm dark:border-gray-700/30">
+      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-end p-4">
+        <i className="fas fa-code text-2xl text-mi-verde mr-4" />
+        
+        <div className="hidden w-full md:block md:w-auto" id="navbar">
+          <ul className="flex flex-col rounded-lg font-medium md:flex-row md:space-x-8 md:border-0 md:bg-transparent">
+            {links.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="block rounded-sm px-3 py-2 text-white hover:text-mi-verde md:p-0"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

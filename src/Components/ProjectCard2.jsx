@@ -46,7 +46,7 @@ const ProjectCard = ({ title, content }) => {
         <div className="flex gap-4">
           <a 
             href="https://github.com/PaabloJ7/Proyecto-MiMusic" 
-            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#2A2A2A] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
+            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#1D2939] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
           >
             <i className="h-4 w-7 fa-brands fa-github"></i>
             Código
@@ -54,14 +54,16 @@ const ProjectCard = ({ title, content }) => {
 
           <a 
             href="#"
-            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#2A2A2A] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
+            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#1D2939] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
           >
             <i className="h-4 w-7 fas fa-info-circle mr-1"></i>
             Saber más
           </a>
+          
         </div>
       </div>
     </div>
+    
   );
 };
 

@@ -4,7 +4,7 @@ const ExperienceSection = () => {
   const experiences = [
     {
       jobTitle: "Desarrollador web",
-      company: "Navantia, S.A, España",
+      company: "Navantia, España",
       period: "Marzo 2024 - Junio 2024",
       description: "Trabajé en el departamento de Transformación Digital de Navantia, participando en el desarrollo de portales internos y páginas web corporativas. Contribuí al diseño y desarrollo de plataformas que facilitaban el acceso a información y formación para los nuevos empleados, mejoraban la comunicación interna y apoyaban la presentación de proyectos."
     },

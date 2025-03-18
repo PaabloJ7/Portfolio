@@ -15,13 +15,13 @@ const ProjectCard = ({ title, content }) => {
       {/* Columna derecha (descripción del proyecto y tecnologías) */}
       <div className="w-1/2 p-12 flex flex-col justify-center z-20 bg-transparent">
         <h1 className="mb-4 text-4xl font-bold text-white tracking-tight">
-          App Fit 
+          Web App VitalMe
         </h1>
         
         <p className="mb-8 text-lg text-gray-400 leading-relaxed">
           Una aplicación completa para el seguimiento de tu estilo de vida saludable. 
-          Registra tus comidas diarias, cuenta calorías, establece objetivos nutricionales 
-          y mantén un control detallado de tu progreso hacia una vida más saludable.
+          Registra datos nutricionales de comidas consumidas y gastadas, establece objetivos nutricionales 
+          y mantiene un control detallado de tu progreso hacia una vida más saludable.
         </p>
 
         {/* Tecnologías con iconos */}
@@ -48,7 +48,7 @@ const ProjectCard = ({ title, content }) => {
         <div className="flex gap-4">
           <a 
             href="https://github.com/PaabloJ7/Proyecto-VitalMe" 
-            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#2A2A2A] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
+            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#1D2939] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
           >
             <i className="h-4 w-7 fa-brands fa-github"></i>
             Código
@@ -56,14 +56,16 @@ const ProjectCard = ({ title, content }) => {
 
           <a 
             href="#"
-            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#2A2A2A] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
+            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-[#1D2939] rounded-full hover:bg-[#3A3A3A] transition-colors duration-200 w-fit"
           >
             <i className="h-4 w-7 fas fa-info-circle mr-1"></i>
             Saber más
           </a>
         </div>
+        
       </div>
     </div>
+    
   );
 };
 
