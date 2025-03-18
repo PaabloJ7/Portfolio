@@ -22,25 +22,36 @@ const ProjectCard = ({ title, content }) => {
         Plataforma de streaming musical desarrollada con PHP y Symfony, implementando una arquitectura MVC y gestión de bases de datos MySQL. Incluye sistema de autenticación, gestión de playlists, reproductor de audio integrado y panel de administración para gestionar contenidos y usuarios.
         </p>
 
-        {/* Tecnologías con iconos */}
-        <div className="flex flex-wrap gap-4 mb-6">
-          <span className="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-300 rounded-full">
-            <img 
-              className="h-5 w-5"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
-              alt="PHP" 
-            />
-            PHP
-          </span>
-          <span className="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-300 rounded-full">
-            <img 
-              className="h-5 w-5"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" 
-              alt="Symfony" 
-            />
-            Symfony
-          </span>
-        </div>
+{/* Tecnologías con iconos */}
+<div className="flex flex-wrap gap-4 mb-6">
+<img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+    alt="JavaScript" 
+  />
+  <img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
+    alt="PHP" 
+  />
+
+  <img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" 
+    alt="Symfony" 
+  />
+      <img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" 
+    alt="SQL" 
+  />
+  <img 
+    className="h-7 w-7"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" 
+    alt="Tailwind CSS" 
+  />
+</div>
+
 
         {/* Botones */}
         <div className="flex gap-4">

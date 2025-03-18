@@ -32,7 +32,7 @@ const Contact = () => {
             <input type="text" id="name" name="name" required className="w-full p-2 bg-gray-700 border border-gray-600 rounded"/>
           </div>
           <div className="mt-4">
-            <label htmlFor="email" className="block mb-2">Email</label>
+            <label htmlFor="email" className="block mb-2">Correo</label>
             <input type="email" id="email" name="email" required className="w-full p-2 bg-gray-700 border border-gray-600 rounded"/>
           </div>
           <div className="mt-4">

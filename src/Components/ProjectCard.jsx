@@ -24,25 +24,31 @@ const ProjectCard = ({ title, content }) => {
           y mantiene un control detallado de tu progreso hacia una vida más saludable.
         </p>
 
-        {/* Tecnologías con iconos */}
-        <div className="flex flex-wrap gap-4 mb-6">
-          <span className="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-300 rounded-full">
-            <img 
-              className="h-5 w-5"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
-              alt="PHP" 
-            />
-            PHP
-          </span>
-          <span className="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-300 rounded-full">
-            <img 
-              className="h-5 w-5"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" 
-              alt="Symfony" 
-            />
-            Symfony
-          </span>
-        </div>
+{/* Tecnologías con iconos */}
+<div className="flex flex-wrap gap-4 mb-6">
+  <img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
+    alt="PHP" 
+  />
+  <img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" 
+    alt="Symfony" 
+  />
+      <img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" 
+    alt="SQL" 
+  />
+  <img 
+    className="h-8 w-8"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" 
+    alt="Bootstrap" 
+  />
+  
+</div>
+
 
         {/* Botones */}
         <div className="flex gap-4">
