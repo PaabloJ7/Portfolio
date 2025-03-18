@@ -7,6 +7,7 @@ import LeftLane from './Components/LeftLane'
 import ProjectCard2 from './Components/ProjectCard2'
 import Rightlane from './Components/RightLane.jsx'
 import ExperienceSection from './Components/ExperienceCard.jsx'
+import Contact from './Components/Contact.jsx'
 <script src="https://kit.fontawesome.com/8c84d65625.js" crossorigin="anonymous"></script>
 
 
@@ -24,7 +25,7 @@ function App() {
       <br />
       <ProjectCard2 />
       <ExperienceSection />
-      <div className="text-center text-yellow-400 text-4xl font-extrabold bg-black p-4 rounded-lg shadow-lg animate-pulse-slow"> Portfolio en desarrollo... </div>
+      <Contact />
 
     </div>
     

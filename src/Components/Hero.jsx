@@ -36,9 +36,7 @@ const Hero  = () => {
                     Desarrollador Web Junior con conocimientos en Frontend y Backend,
                     actualmente en busqueda de oportunidades en el mundo del desarrollo web.
                     <br />
-                    Motivado por aprender y mejorar continuamente. Mi enfoque principal es el
-                    Frontend, ya que me entusiasma construir interfaces interactivas y modernas
-                    que mejoran la experiencia del usuario.
+                    Me considero una persona con una buena visión de negocio y capacidad para entender las necesidades del usuario, lo que me permite desarrollar soluciones funcionales, eficientes y escalables.
                 </motion.p>
 
                 <motion.div

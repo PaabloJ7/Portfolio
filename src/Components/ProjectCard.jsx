@@ -15,7 +15,7 @@ const ProjectCard = ({ title, content }) => {
       {/* Columna derecha (descripción del proyecto y tecnologías) */}
       <div className="w-1/2 p-12 flex flex-col justify-center z-20 bg-transparent">
         <h1 className="mb-4 text-4xl font-bold text-white tracking-tight">
-          App Fit 🍏
+          App Fit 
         </h1>
         
         <p className="mb-8 text-lg text-gray-400 leading-relaxed">
