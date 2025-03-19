@@ -17,7 +17,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-      <div id="Experiencia" className="container m-42 mx-auto max-w-6xl">
+<div id="Experiencia" className="container m-14 mx-auto max-w-6xl">
 
         <div className="flex flex-col items-center">
           <div className="relative">

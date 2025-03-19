@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Hero  = () => {
     return (
-        <div  id="Sobremi" className="grid items-center min-h-screen md:grid-cols-4 gap-8 px-4 mx-auto max-w-screen-xl ">
+        <div id="Sobremi" className="grid items-center min-h-screen grid-cols-1 md:grid-cols-4 gap-8 px-4 mx-auto max-w-screen-xl">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -231,9 +231,14 @@ const Hero  = () => {
                         <div className="w-3 h-3 rounded-full bg-green-500"></div>
                     </div>
                     <div className="w-full h-24 bg-gray-200 dark:bg-gray-700 rounded"></div>
+s
                 </motion.div>
             </motion.div>
+            
+            
+            
         </div>
+        
     )
 }
 

@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full backdrop-blur-sm dark:border-gray-700/30">
+    <nav className="fixed w-full backdrop-blur-sm z-50 ">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-end p-4">
         <i className="fas fa-code text-2xl text-mi-verde mr-4" />
         
